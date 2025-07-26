@@ -1,14 +1,27 @@
 # 🌳 Climate Change in Canada: Historical Analysis and Future Projections
 
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+
 ## 🧾 Project Overview
 
-This project analyzes historical climate data from Canada and uses machine learning models (Random Forest, Prophet, and Gradient Boosting) to predict future trends in temperature change, sea ice loss, precipitation patterns, and CO₂ emissions. The goal is to empower policymakers, researchers, and civil society organizations to make data-driven decisions to combat climate change over the next five years.
+The goal of this project is to predict key climate indicators for Canada and the world using advanced machine learning techniques. I used historical data from 1968 to 2024 (except for CO₂ emissions data, which covers a different range) to train models and generate predictions for the future period of 2025 to 2030.
+
+The project focuses on forecasting:
+- 🧊 **Sea ice loss** (for Canada)
+- 🌡️ **Temperature change** (for Canada)
+- 🌧️ **Precipitation trends** (for Canada)
+- 🌍 **CO₂ emissions** (globally)
+
+I merged multiple datasets from different sources to create a comprehensive view of historical climate patterns. For modeling, I applied and compared three different machine learning models: **Prophet**, **Gradient Boosting**, and **Random Forest**. Then, I visualized the historical datasets and predictions with interactive maps and various charts in a **Streamlit app**.
+While sea ice, temperature, and precipitation predictions are centered on Canada, CO₂ emissions predictions are global — allowing us to visualize Canada’s position in the worldwide climate challenge.
+This project aims to support policymakers, researchers, and the public by providing accessible predictions that highlight future climate risks and opportunities for proactive environmental action.
 
 ---
 
 ## 📂 Project Structure
 
 ```
+📁 climate/                            # Virtual environment folder
 
 📁 csv_files/
 │   📂 cleaned_datasets/              # Cleaned datasets used in modeling
@@ -46,8 +59,6 @@ This project analyzes historical climate data from Canada and uses machine learn
 📄 READ_ME.txt                         # Important details of the project
 📄 requirements.txt                    # How to run this project
 📄 dataset_resources.xlsx              # Dataset sources and descriptions
-📄 Aysegul_Dahi_Presentation.pptx      # Presentation slides
-📄 Aysegul_Dahi_Presentation.pdf       # PDF version of presentation
 📄 Streamlit_Dashboard.pdf             # Dashboard screenshots
 ```
 
@@ -60,7 +71,7 @@ This project analyzes historical climate data from Canada and uses machine learn
 
 - On **Windows**:
 ```bash
-.\climate\Scriptsctivate
+.\climate\Scripts\Activate
 ```
 
 - On **Mac/Linux**:
@@ -106,11 +117,36 @@ streamlit run python_files/dashboard.py
 ---
 
 ## 👤 Author
-
-Aysegul Dahi  
-
+Aysegul Dahi
+📍 Data Analytics Student at Douglas College  
 🔗 [LinkedIn](https://linkedin.com/in/ayseguldahi)
 
 ---
 
 > ⭐ Star this repository if you found the project valuable!
+
+---
+
+## 🧠 Project Insights & Reflections
+
+This project explores the historical patterns and future projections of climate change with a particular focus on Canada, using machine learning models to predict temperature changes, sea ice loss, precipitation trends, and global CO₂ emissions. 
+
+By analyzing data from **1968 to 2024** and forecasting trends for **2025–2030**, I aim to provide a **data-driven view** that can support policymakers, researchers, and environmental organizations in making informed decisions about climate action.
+
+The project combines:
+- 🌲 **Traditional ML models**: Random Forest, Gradient Boosting  
+- ⏳ **Time series forecasting**: Prophet  
+- ⚙️ **Enhancements**: Regularization, feature engineering, and hyperparameter tuning
+
+🔍 **Key Highlights**:
+- 📈 Interactive dashboards with animated maps and trendlines
+- 🌍 Global comparison of CO₂ emissions
+- ❄️ Arctic sea ice loss as a critical concern
+- 🌧️ Regional precipitation forecasting showed mixed accuracy
+- 📊 Best prediction scores achieved in CO₂ emissions forecasting
+
+This work demonstrates the power of combining **multiple modeling techniques** with contextual domain knowledge to better understand and visualize climate risk.
+
+---
+
+
