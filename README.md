@@ -11,11 +11,25 @@ The project focuses on forecasting:
 - 🌡️ **Temperature change** (for Canada)
 - 🌧️ **Precipitation trends** (for Canada)
 - 🌍 **CO₂ emissions** (globally)
+## 🧠 Project Insights & Reflections
 
-I merged multiple datasets from different sources to create a comprehensive view of historical climate patterns. For modeling, I applied and compared three different machine learning models: **Prophet**, **Gradient Boosting**, and **Random Forest**. Then, I visualized the historical datasets and predictions with interactive maps and various charts in a **Streamlit app**.
-While sea ice, temperature, and precipitation predictions are centered on Canada, CO₂ emissions predictions are global — allowing us to visualize Canada’s position in the worldwide climate challenge.
-This project aims to support policymakers, researchers, and the public by providing accessible predictions that highlight future climate risks and opportunities for proactive environmental action.
+This project explores the historical patterns and future projections of climate change with a particular focus on Canada, using machine learning models to predict temperature changes, sea ice loss, precipitation trends, and global CO₂ emissions. 
 
+By analyzing data from **1968 to 2024** and forecasting trends for **2025–2030**, I aim to provide a **data-driven view** that can support policymakers, researchers, and environmental organizations in making informed decisions about climate action.
+
+The project combines:
+- 🌲 **Traditional ML models**: Random Forest, Gradient Boosting  
+- ⏳ **Time series forecasting**: Prophet  
+- ⚙️ **Enhancements**: Regularization, feature engineering, and hyperparameter tuning
+
+🔍 **Key Highlights**:
+- 📈 Interactive dashboards with animated maps and trendlines
+- 🌍 Global comparison of CO₂ emissions
+- ❄️ Arctic sea ice loss as a critical concern
+- 🌧️ Regional precipitation forecasting showed mixed accuracy
+- 📊 Best prediction scores achieved in CO₂ emissions forecasting
+
+This work demonstrates the power of combining **multiple modeling techniques** with contextual domain knowledge to better understand and visualize climate risk.
 ---
 
 ## 📂 Project Structure
@@ -118,34 +132,11 @@ streamlit run python_files/dashboard.py
 
 ## 👤 Author
 Aysegul Dahi
-📍 Data Analytics Student at Douglas College  
 🔗 [LinkedIn](https://linkedin.com/in/ayseguldahi)
-
 ---
 
 > ⭐ Star this repository if you found the project valuable!
-
 ---
-
-## 🧠 Project Insights & Reflections
-
-This project explores the historical patterns and future projections of climate change with a particular focus on Canada, using machine learning models to predict temperature changes, sea ice loss, precipitation trends, and global CO₂ emissions. 
-
-By analyzing data from **1968 to 2024** and forecasting trends for **2025–2030**, I aim to provide a **data-driven view** that can support policymakers, researchers, and environmental organizations in making informed decisions about climate action.
-
-The project combines:
-- 🌲 **Traditional ML models**: Random Forest, Gradient Boosting  
-- ⏳ **Time series forecasting**: Prophet  
-- ⚙️ **Enhancements**: Regularization, feature engineering, and hyperparameter tuning
-
-🔍 **Key Highlights**:
-- 📈 Interactive dashboards with animated maps and trendlines
-- 🌍 Global comparison of CO₂ emissions
-- ❄️ Arctic sea ice loss as a critical concern
-- 🌧️ Regional precipitation forecasting showed mixed accuracy
-- 📊 Best prediction scores achieved in CO₂ emissions forecasting
-
-This work demonstrates the power of combining **multiple modeling techniques** with contextual domain knowledge to better understand and visualize climate risk.
 
 ---
 
