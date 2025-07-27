@@ -95,7 +95,7 @@ This work demonstrates the power of combining **multiple modeling techniques** w
 
 - On **Windows**:
 ```bash
-.\climate\Scripts\Activate
+climate\Scripts\Activate
 ```
 
 - On **Mac/Linux**:
