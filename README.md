@@ -60,6 +60,16 @@ This work demonstrates the power of combining **multiple modeling techniques** w
 │   ├─ summer-trends-NCW.csv
 │   └─ Temperature-change-annual-en.csv
 
+📁 data_visualizations/               # PNG visualizations used in analysis & presentation
+├─ CO2_Emissions_Forecast.png
+├─ CO2_Predictions.png
+├─ future_temperature_predictions.png
+├─ global_CO2_emissions.png
+├─ sea_ice_global_temperature.png
+├─ sea_ice_loss_september.png
+├─ sea_ice_loss_summer.png
+└─ temperature_change.png
+
 📁 python_files/                       # Python scripts
 ├─ clean_co2_dataset.py               # CO₂ emissions data cleaning
 ├─ dashboard.py                       # Main Streamlit dashboard
