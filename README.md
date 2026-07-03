@@ -1,4 +1,4 @@
-# 🌳 Climate Change in Canada: Historical Analysis and Future Projections
+# Climate Change in Canada: Historical Analysis and Future Projections
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
@@ -7,27 +7,27 @@
 The goal of this project is to predict key climate indicators for Canada and the world using advanced machine learning techniques. I used historical data from 1968 to 2024 (except for CO₂ emissions data, which covers a different range) to train models and generate predictions for the future period of 2025 to 2030.
 
 The project focuses on forecasting:
-- 🧊 **Sea ice loss** (for Canada)
-- 🌡️ **Temperature change** (for Canada)
-- 🌧️ **Precipitation trends** (for Canada)
-- 🌍 **CO₂ emissions** (globally)
-## 🧠 Project Insights & Reflections
+-  **Sea ice loss** (for Canada)
+-  **Temperature change** (for Canada)
+-  **Precipitation trends** (for Canada)
+-  **CO₂ emissions** (globally)
+##  Project Insights & Reflections
 
 This project explores the historical patterns and future projections of climate change with a particular focus on Canada, using machine learning models to predict temperature changes, sea ice loss, precipitation trends, and global CO₂ emissions. 
 
 By analyzing data from **1968 to 2024** and forecasting trends for **2025–2030**, I aim to provide a **data-driven view** that can support policymakers, researchers, and environmental organizations in making informed decisions about climate action.
 
 The project combines:
-- 🌲 **Traditional ML models**: Random Forest, Gradient Boosting  
-- ⏳ **Time series forecasting**: Prophet  
-- ⚙️ **Enhancements**: Regularization, feature engineering, and hyperparameter tuning
+- **Traditional ML models**: Random Forest, Gradient Boosting  
+- **Time series forecasting**: Prophet  
+- **Enhancements**: Regularization, feature engineering, and hyperparameter tuning
 
-🔍 **Key Highlights**:
-- 📈 Interactive dashboards with animated maps and trendlines
-- 🌍 Global comparison of CO₂ emissions
-- ❄️ Arctic sea ice loss as a critical concern
-- 🌧️ Regional precipitation forecasting showed mixed accuracy
-- 📊 Best prediction scores achieved in CO₂ emissions forecasting
+**Key Highlights**:
+- Interactive dashboards with animated maps and trendlines
+- Global comparison of CO₂ emissions
+- Arctic sea ice loss as a critical concern
+- Regional precipitation forecasting showed mixed accuracy
+- Best prediction scores achieved in CO₂ emissions forecasting
 
 This work demonstrates the power of combining **multiple modeling techniques** with contextual domain knowledge to better understand and visualize climate risk.
 ---
@@ -88,7 +88,7 @@ This work demonstrates the power of combining **multiple modeling techniques** w
 
 ---
 
-## 🚀 Environment Setup
+## Environment Setup
 
 1. **Create a virtual environment (optional but recommended).**
 2. **Activate the environment**:
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run the Streamlit Dashboard?
+## How to Run the Streamlit Dashboard?
 
 ```bash
 streamlit run python_files/dashboard.py
@@ -118,29 +118,29 @@ streamlit run python_files/dashboard.py
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
-- 📈 **Exploratory Data Analysis (EDA)**  
+- **Exploratory Data Analysis (EDA)**  
   Visualize trends in Canada's historical climate patterns.
 
-- ❄️ **Sea Ice Loss Predictions**  
+- **Sea Ice Loss Predictions**  
   Forecast summer and September sea ice area loss across Northern Canadian Waters.
 
-- 🌡️ **Temperature Predictions**  
+- **Temperature Predictions**  
   Predict average temperature changes across major Canadian cities.
 
-- 🌧️ **Precipitation Predictions**  
+- **Precipitation Predictions**  
   Estimate precipitation patterns and extreme weather trends.
 
-- 🌍 **CO₂ Emissions Forecast**  
+- **CO₂ Emissions Forecast**  
   Model future CO₂ emissions by country and visualize results on a global map.
 
-- 🎥 **Interactive Animations**  
+- **Interactive Animations**  
   Year-by-year animated maps showing environmental changes over time.
 
 ---
 
-## 👤 Author
+## Author
 Aysegul Dahi
 🔗 [LinkedIn](https://linkedin.com/in/ayseguldahi)
 ---
